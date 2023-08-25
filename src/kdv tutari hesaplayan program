@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Kdv_tutari_hesaplayan_program {
+    public static void main(String[] args) {
+
+        double tutar, kdvOran = 0.18, kdvTutar, kdvliTutar;
+
+
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Ucret Tutarini Giriniz");
+        tutar = input.nextDouble();
+
+        kdvTutar = tutar * kdvOran;
+        kdvliTutar = tutar + kdvTutar;
+
+        System.out.println("kdv'siz tutar :" + tutar);
+        System.out.println("kdv orani :" + kdvOran);
+        System.out.println("kdv tutari :" + kdvTutar);
+        System.out.println("kdvli tutar :" + kdvliTutar);
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
