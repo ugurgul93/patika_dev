@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Boy_Kilo_Indeksi {
+    public static void main(String[] args) {
+        double boy;
+        int kilo;
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Lutfen boyunuzu metre cinsinden giriniz : ");
+        boy = input.nextDouble();
+
+        System.out.print("Lutfen kilonuzu giriniz : ");
+        kilo = input.nextInt();
+
+        double vucutindeks = kilo / (boy * boy);
+        System.out.print("Vucut Kutle Indeksiniz : " + vucutindeks);
+
+
+
+    }
+}
